@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{/*nested if else*/
+
+    float cp,sp,p,l;
+    printf("\nenter the cost prise and selling price;");
+    scanf("%f%f",&cp,&sp);
+    p=sp-cp;
+    l=cp-sp;
+    if(p>0)
+        printf("profit\n%f",p);
+        if(l>0)
+            printf("loss \n\n",l);
+        if(p==0)
+            printf("\n no profit");
+        getch();
+}
+
